@@ -1,10 +1,10 @@
-package cvvvvvv;
+package algo;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class xxxx {
+public class kakao2018 {
 
 	public static void main(String[] args) {
 		System.out.println(Arrays.toString(solution(5, new int[] {9, 20, 28, 18, 11},new int[] {30, 1, 21, 17, 28})));
