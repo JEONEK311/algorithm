@@ -11,9 +11,8 @@ public class xxxx {
 	}
 
 	public static String[] solution(int n, int[] arr1, int[] arr2) {
-
+		//
 		String[] answer = new String[n];
-		answer[0] = "1";
 
 		int[] binary1 = new int[n];
 		int[] binary2 = new int[n];
