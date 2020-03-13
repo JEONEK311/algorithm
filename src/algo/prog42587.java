@@ -35,16 +35,12 @@ public class prog42587 {
             if(i==location) {
                 e.val = priorities[i];
                 e.flag = true;
-                arr[i] = e;
+                q.offer(e);
             } else {
                 e.val = priorities[i];
                 e.flag = false;
-                arr[i] = e;
+                q.offer(e);
             }
-        }
-
-        for(int i=0 ; i<size ; i++) {
-            q.offer(arr[i]);
         }
 
         while(!q.isEmpty()) {
