@@ -11,7 +11,8 @@ public class prog42579 {
 
 //		System.out.println(Arrays.toString(solution(new String[] {"classic","pop","classic","classic","pop"}, new int[] {500,600,150,800,2500})));
 		
-		System.out.println(Arrays.toString(solution(new String[] {"classic","pop","classic","classic","pop"}, new int[] {500,600,150,800,2500})));
+//		System.out.println(Arrays.toString(solution(new String[] {"classic","pop","classic","classic","pop"}, new int[] {500,600,150,800,2500})));
+		System.out.println(Arrays.toString(solution(new String[] {"classic","pop", "pop"}, new int[] {8000,4000,3000})));
 //		solution(new String[] {"classic","pop","classic","classic","pop","jeon"}, new int[] {500,600,150,800,2500,100});
 
 	}
