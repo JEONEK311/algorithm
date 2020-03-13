@@ -19,26 +19,28 @@ public class prog42587 {
 	public static int solution(int[] priorities, int location) {
 
 		class Element {
-            int val;
+			int val;
             boolean flag;
+            
+            public Element(int val, boolean flag) {
+            	this.val = val;
+            	this.flag = flag;
+            }
         }
 
         int answer = 0;
         int size = priorities.length;
 
-        Element[] arr = new Element[size];
+        Element e;
         LinkedList<Element> q = new LinkedList<>();
         List<Element> list = new ArrayList<>();
 
         for(int i=0 ; i<size ; i++) {
-            Element e = new Element();
             if(i==location) {
-                e.val = priorities[i];
-                e.flag = true;
+                e = new Element(priorities[i], true);
                 q.offer(e);
             } else {
-                e.val = priorities[i];
-                e.flag = false;
+            	e = new Element(priorities[i], false);
                 q.offer(e);
             }
         }
